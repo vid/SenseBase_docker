@@ -1,0 +1,207 @@
+{
+  "logins": [
+    {
+      "id": 0,
+      "type": "Agent",
+      "username": "system",
+      "active": "September 10, 2013",
+      "description": "",
+      "canApprove": true,
+      "needsValidation": false,
+      "status": "available",
+      "canValidate": true,
+      "clientID": "system@202347971"
+    },
+    {
+      "id": 1,
+      "type": "User",
+      "username": "demo",
+      "password": "demo",
+      "email": "vid_sensebase_web_demo@zooid.org",
+      "icon": "plato.jpg",
+      "active": "September 10, 2013",
+      "description": "",
+      "canApprove": false,
+      "needsValidation": false,
+      "status": "available",
+      "canValidate": true
+    },
+    {
+      "id": 2,
+      "type": "User",
+      "username": "manager",
+      "password": "manager",
+      "email": "vid_sensebase_web_manager@zooid.org",
+      "icon": "manager.png",
+      "active": "September 10, 2013",
+      "description": "",
+      "needsValidation": false,
+      "status": "available",
+      "canValidate": true
+    },
+    {
+      "id": 10000,
+      "type": "Agent",
+      "username": "Spotlight",
+      "service": "annotators/spotlight",
+      "description": "Annotates with DBPedia Spotlight",
+      "icon": "dbpedia.jpg",
+      "status": "unavailable",
+      "needsValidation": true,
+      "clientID": "Spotlight@8268397853"
+    },
+    {
+      "id": 10031,
+      "type": "Agent",
+      "username": "Annotation set",
+      "service": "annotators/annotationSet",
+      "description": "Assigns categories from terms",
+      "status": "available",
+      "needsValidation": true,
+      "clientID": "Annotation set@9635892119"
+    },
+    {
+      "id": 10001,
+      "type": "Agent",
+      "username": "AFINN Sentiment",
+      "service": "annotators/sentiment",
+      "description": "Tags with AFINN general sentiment",
+      "icon": "sentiment.jpg",
+      "status": "available",
+      "needsValidation": true,
+      "clientID": "AFINN Sentiment@3635892119"
+    },
+    {
+      "id": 10002,
+      "type": "Agent",
+      "username": "Pullquoter",
+      "service": "annotators/pullquoter",
+      "description": "Extracts potentially meaningful phrases",
+      "status": "unavailable",
+      "needsValidation": true,
+      "clientID": "Pullquoter@280605532"
+    },
+    {
+      "id": 10003,
+      "type": "Agent",
+      "username": "PubmedArticle",
+      "service": "annotators/addRequest",
+      "description": "Tagged with PubmedArticle data",
+      "status": "available",
+      "needsValidation": false,
+      "clientID": "PubmedArticle@6120792842"
+    },
+    {
+      "id": 10004,
+      "type": "Agent",
+      "username": "Board members",
+      "descriptions": "Annotates board members",
+      "icon": "board.jpg",
+      "description": "",
+      "status": "unavailable",
+      "needsValidation": true,
+      "clientID": "Board members@1171385557"
+    },
+    {
+      "id": 10005,
+      "type": "Agent",
+      "username": "MicroRDF",
+      "description": "Annotates using inline microRDF",
+      "icon": "rdf.png",
+      "status": "unavailable",
+      "needsValidation": true,
+      "clientID": "MicroRDF@2504339845"
+    },
+    {
+      "id": 10006,
+      "type": "Agent",
+      "username": "ANNIE",
+      "description": "Annotates with general entities (people, places, things, organizations, money, etc)",
+      "icon": "gate.jpg",
+      "status": "unavailable",
+      "needsValidation": true,
+      "clientID": "ANNIE@2508128105"
+    },
+    {
+      "id": 10007,
+      "type": "Agent",
+      "username": "DC",
+      "description": "Tags with Dublin Core metadata",
+      "icon": "dublin_core.png",
+      "status": "unavailable",
+      "needsValidation": true,
+      "clientID": "DC@5124365476"
+    },
+    {
+      "id": 20000,
+      "type": "Agent",
+      "username": "Search",
+      "service": "search",
+      "description": "Retrieves searches",
+      "status": "available",
+      "clientID": "Search@4871434381"
+    },
+    {
+      "id": 20001,
+      "type": "Agent",
+      "username": "Watch",
+      "service": "watch",
+      "description": "Processes watches",
+      "status": "available",
+      "clientID": "Watch@2358213895"
+    },
+    {
+      "id": 20002,
+      "type": "Agent",
+      "username": "Cron",
+      "service": "cron",
+      "description": "Executes scheduled events",
+      "status": "available",
+      "clientID": "Cron@7994255246"
+    },
+    {
+      "id": 1385025182848,
+      "active": "2013-11-22T01:53:02.841Z",
+      "username": "Entrez",
+      "type": "Searcher",
+      "description": "Uses entrez esearch api",
+      "status": "available",
+      "needsValidation": false,
+      "api": "entrez.esearch",
+      "clientID": "Entrez@5935985728"
+    },
+    {
+      "id": 1385025182848,
+      "active": "2013-11-22T01:53:02.841Z",
+      "username": "Wikipedia category",
+      "type": "Searcher",
+      "description": "Imports Wikipedia categories",
+      "status": "available",
+      "needsValidation": false,
+      "api": "mediawiki.category.wikipedia",
+      "clientID": "Wikipedia category@5935985728"
+    },
+    {
+      "id": 1385025182898,
+      "active": "2013-11-22T01:53:02.841Z",
+      "username": "Bing news",
+      "type": "Searcher",
+      "description": "Uses Bing news search api",
+      "status": "available",
+      "needsValidation": false,
+      "api": "bing.news",
+      "clientID": "Bing news@5258845598"
+    },
+    {
+      "id": 1385025182899,
+      "active": "2013-11-22T01:53:02.841Z",
+      "username": "Bing search",
+      "type": "Searcher",
+      "description": "Uses bing web search api",
+      "status": "available",
+      "needsValidation": false,
+      "api": "bing.web",
+      "clientID": "Bing search@7643063092"
+    }
+  ]
+}
