@@ -1,5 +1,7 @@
 FROM dockerfile/nodejs
 
+ENV DEBIAN_FRONTEND noninteractive
+
 RUN groupadd -r sbuser -g 433 && \
 useradd -u 431 -r -g sbuser -d /data/SenseBase -s /sbin/nologin -c "SenseBase user" sbuser
 RUN chown -R sbuser /usr/local
