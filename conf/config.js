@@ -10,7 +10,7 @@ var domain = 'localhost',
   port = 9999,
   fayemount = namespace + '/faye',
   base = 'http://' + domain + (port ? ':' + port : '') + namespace;
-var esOptions ={ _index : 'ps', server : { host : domain, port : 9200 }};
+var esOptions ={ _index : 'ps', server : { host : 'es', port : 9200 }};
 exports.config = {
   loginQuery : "?&size=500",
   HTTP_PORT: port,
